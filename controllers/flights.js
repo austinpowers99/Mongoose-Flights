@@ -5,7 +5,6 @@ module.exports = {
     create,
     index,
     show,
-    delete: deleteFlight
 }
 
 function newFlight(req, res) {

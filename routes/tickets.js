@@ -10,5 +10,4 @@ router.get('/flights/:id/tickets/new', (req, res) => {
 
 router.post('/flights/:id/tickets', ticketsCtrl.create);
 
-
 module.exports = router;

@@ -3,7 +3,6 @@ const {ObjectId} = require('mongoose');
 const Schema = mongoose.Schema;
 
 
-
 module.exports = {
   deleteOne
 };
@@ -28,7 +27,6 @@ const ticketSchema = new Schema({
   timestamps: true
 });
 
-
 const destinationSchema = new Schema({
   airport: {
       type: String,
@@ -36,7 +34,6 @@ const destinationSchema = new Schema({
       required: true
     },
   arrival: Date,
-
 
 }, {
     timestamps: true
